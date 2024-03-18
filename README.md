@@ -1,52 +1,38 @@
-# uber_data_engineering
+# Uber Data Engineering Project
+
 A thorough analysis of the uber dataset with ETL pipelines in Mage AI, data processing in BigQuery and visualization in Looker Studio.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Uber Data Engineering Project README</title>
-</head>
-<body>
-    <h1>Uber Data Engineering Project</h1>
-    <p>This project aims to analyze and process Uber trip data to uncover insights into urban mobility and improve ride-hailing services. Utilizing modern data engineering techniques, this repository contains scripts, notebooks, and applications for data collection, processing, and visualization.</p>
-    
-    <h2>Project Overview</h2>
-    <p>The Uber Data Engineering Project is designed to handle large volumes of ride-hailing data, applying data engineering best practices to extract meaningful information. It includes:</p>
-    <ul>
-        <li>Data Collection: Scripts for ingesting data from Uber's API.</li>
-        <li>Data Processing: Pipelines for cleaning and structuring raw data.</li>
-        <li>Data Analysis: Notebooks for conducting exploratory data analysis.</li>
-        <li>Data Visualization: Tools for visualizing trends and patterns.</li>
-    </ul>
-    
-    <h2>Installation</h2>
-    <p>To get started with this project, follow these steps:</p>
-    <pre>
-<code>git clone https://github.com/ayush-shinde/uber_data_engineering.git
-cd uber_data_engineering
-pip install -r requirements.txt</code>
-    </pre>
-    
-    <h2>Usage</h2>
-    <p>Here's a quick example of how to run a data processing script:</p>
-    <pre>
-<code>python scripts/process_data.py</code>
-    </pre>
-    
-    <h2>Visualizations</h2>
-    <p>The project includes several data visualizations to enhance the understanding of Uber's operational dynamics. Below are some examples:</p>
-    <img src="![image](https://github.com/ayush-shinde/uber_data_engineering/assets/73592376/a3e165fe-1a3f-43e2-8127-c919217151de)" alt="Visualization 1" style="width:100%;max-width:600px;">
+## Project Overview
 
-    
-    <h2>Contributing</h2>
-    <p>We welcome contributions! Please read the <a href="CONTRIBUTING.md">contributing guidelines</a> before making a pull request.</p>
-    
-    <h2>Acknowledgments</h2>
-    <p>This project would not be possible without the support of the Uber API and the open-source community. A special thanks to contributors and users for their insights and feedback.</p>
-    
-    <footer>
-        <p>For more information, please visit the <a href="https://github.com/ayush-shinde/uber_data_engineering">project's GitHub page</a>.</p>
-    </footer>
-</body>
-</html>
+This project aims to provide insights into Uber's operational data, including ride requests, ride completions, and demand-supply analysis. By utilizing big data technologies and data engineering principles, I've created a pipeline that transforms raw data into actionable insights.
+
+## Dataset
+TLC Trip Record Data Yellow taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
+Dataset used in this project: Yellow Taxi Trip Records-April 2023
+
+More info about the dataset can be found here:
+Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
+## Data Model
+
+![Data Model](https://github.com/ayush-shinde/uber_data_engineering/assets/73592376/306a1b13-a0f3-4fcc-b5eb-d5ce9d9096ec)
+
+## How It Works
+
+The project is structured into several key components, each handling a specific part of the data engineering pipeline:
+
+1. **Data Collection:** Data is collected from public datasets and APIs.
+2. **Data Processing:** Data is cleaned, transformed, and stored in a format ready for analysis.
+3. **Analysis and Visualization:** Data is analyzed to extract meaningful insights, which are then visualized through dashboards.
+
+The ETL pipeline was created in Mage AI. Data was accessed from the GCP storage and the analysis was done on BigQuery.
+
+![Data Pipeline](https://github.com/ayush-shinde/uber_data_engineering/assets/73592376/5a6e0c70-33ee-4709-806d-99275b6508c3)
+
+## Visualization report and outcome
+
+Used Looker Studio to create the interactive dashboard.
+
+![data_viz](https://github.com/ayush-shinde/uber_data_engineering/assets/73592376/85734623-8053-45b8-9cad-64fff6a50934)
+
