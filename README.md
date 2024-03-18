@@ -22,11 +22,11 @@ Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_t
 
 The project is structured into several key components, each handling a specific part of the data engineering pipeline:
 
-1. **Data Collection:** Data is collected from public datasets and APIs.
-2. **Data Processing:** Data is cleaned, transformed, and stored in a format ready for analysis.
-3. **Analysis and Visualization:** Data is analyzed to extract meaningful insights, which are then visualized through dashboards.
+1. **Data Collection**: Data is collected from public datasets and APIs.
+2. **Data Processing**(_*Mage AI and Google BigQuery*_): Data is cleaned, transformed, and stored in a format ready for analysis. 
+3. **Analysis and Visualization**(_*Looker Studio*_): Data is analyzed to extract meaningful insights, which are then visualized through dashboards.
 
-The ETL pipeline was created in Mage AI. Data was accessed from the GCP storage and the analysis was done on BigQuery.
+The ETL pipeline was created in the compute engine of Mage AI (Mage VM). Data was accessed from the GCP storage and the analysis was done on BigQuery.
 
 ![Data Pipeline](https://github.com/ayush-shinde/uber_data_engineering/assets/73592376/5a6e0c70-33ee-4709-806d-99275b6508c3)
 
