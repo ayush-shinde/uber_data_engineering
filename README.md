@@ -10,8 +10,8 @@ This project aims to provide insights into Uber's operational data, including ri
 TLC Trip Record Data Yellow taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
 Dataset used in this project: Yellow Taxi Trip Records-April 2023
 
-More info about the dataset can be found here:
-Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+More info about the dataset can be found here:</br>
+Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page</br>
 Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Data Model
